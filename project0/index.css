@@ -1,3 +1,15 @@
+#back{
+	font-size: 12px;
+	color:black;
+}
+
+#back a{
+    color:black;
+    font-family: sans-serif;
+
+
+}
+
 html{
 	position: relative;
 }
@@ -11,6 +23,19 @@ body{
 header{
 	padding:10vw 17vw 2.5vw;
 	max-width: 1510px;
+}
+
+p{
+	font-size:18px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+li{
+	font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+
 }
 
 #big{
@@ -28,6 +53,7 @@ header >p {
 .underline{
 	position: relative;
 	white-space: nowrap;
+	color: grey;
 }
 .underline:after{
 	content: "";
@@ -42,29 +68,30 @@ header >p {
 section{
 	padding:2vw 17vw 5vw;
 	max-width: 1510px;
+
 }
 a{
-	color:#111;
 	border:0;
 	text-decoration: none;
 	-webkit-transition:opacity: 0.4s;
 	-o-transition:opacity: 0.4s;
 	transition: opacity 0.4s;
+	color:black;
 }
 a:hover{
 	color: #111;
-	border:0;
 	text-decoration: ne-resize;
 	opacity:0.7;
 }
 .small a{
 	position: relative;
 	white-space: nowrap;
+	color:black;
 }
 .small a:after{
 	content: "";
 	position: absolute;
-	bottom: -0.1em;
+	bottom: 0.1em;
 	right: 0;
 	left: 0;
 	height: 1px;
@@ -82,22 +109,37 @@ footer{
 	line-height: 1.5em;
 }
 
+ul{
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+
 .h-list{
 	display: -ms-flexbox;
 	display: flex;
 	list-style-type: none;
 	padding-left: 0;
+    float: left;
+
 }
 
 .h-list li{
 	margin-left: 0;
 	margin-right: 1vw;
+	color: black;
+
 }
 
 .v-list{
 	list-style-type: none;
 	padding-left: 0;
 	margin-top: 0;
+	color:black;
+
 }
 .no-margins{
 	margin:0 0 0 0;
